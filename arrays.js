@@ -28,3 +28,4 @@ destructivelyAddElementToEndOfArray(firstToDo, 'foo');
 function accessElementInArray(array, index) {
   return array[index];
 }
+
