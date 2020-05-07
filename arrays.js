@@ -18,3 +18,8 @@ function addElementToEndOfArray(array, element) {
   return newSecondToDo
 }
 addElementToEndOfArray(firstToDo, 'foo');
+
+function destructielyAddElementToEndOfArray(array, element) {
+  array = array.push(element);
+  return array;
+}
