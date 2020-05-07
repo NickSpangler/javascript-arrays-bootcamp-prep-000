@@ -16,3 +16,4 @@ function destructivelyAddElementToBeginningOfArray(array, element) {
 function addElementToEndOfArray(array, element) {
   var newSecondToDo = [...array, element];
 }
+addElementToEndOfArray(firstToDo, 'foo');
