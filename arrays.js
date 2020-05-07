@@ -1,0 +1,15 @@
+var chocolateBars = ["snickers", "hundred grand", "kitkat", "skittles"];
+
+var firstToDo = [1];
+
+function addElementToBeginningOfArray(array, element) {
+  var newFirstToDo = [element, ...array]
+  return newFirstToDo
+}
+addElementToBeginningOfArray(firstToDo, 'foo');
+
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  array.unshift(element);
+  return array;
+}
+
