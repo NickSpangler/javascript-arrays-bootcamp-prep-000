@@ -34,7 +34,10 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
   return array;
 }
 
+var whole = [1, 2, 3]
+
 function removeElementFromBeginningOfArray(array) {
   array.slice(1)
   return array
 }
+removeElementFromBeginningOfArray(whole);
